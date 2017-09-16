@@ -1,0 +1,30 @@
+{
+    "name": "laraturka/hicri",
+    "description": "Hicri ve Miladi tarih donusumleri",
+    "license": "MIT",
+
+    "support": {
+        "issues": "https://github.com/laraturka/hicri/issues",
+        "source": "https://github.com/laraturka/hicri"
+    },
+    "authors": [
+        {
+            "name": "Kadir YILMAZ",
+            "email": "kadir@kadir.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.3.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9.4",
+        "phpunit/phpunit": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraturka\\hicri\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
