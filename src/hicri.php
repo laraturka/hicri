@@ -2,7 +2,7 @@
 
 namespace Laraturka\hicri;
 
-class nvi
+class hicri
 {
     public function testing(){
         echo "testing Laraturka Hicri";
